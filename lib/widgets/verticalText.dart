@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class VerticalText extends StatefulWidget {
@@ -13,14 +12,17 @@ class _VerticalTextState extends State<VerticalText> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(top: 60, left: 10),
-      child: RotatedBox(quarterTurns: -1,child: Text(
-        'Sing In',
-        style: TextStyle(
-          fontSize: 38,
-          fontWeight: FontWeight.w900,
-          color: Colors.white,
+      child: RotatedBox(
+        quarterTurns: -1,
+        child: Text(
+          'Sign In',
+          style: TextStyle(
+            fontSize: 38,
+            fontWeight: FontWeight.w900,
+            color: Colors.white,
+          ),
         ),
-      ),),
+      ),
     );
   }
 }

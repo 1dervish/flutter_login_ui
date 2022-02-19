@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:loginui/pages/newuserpage.dart';
 
@@ -19,20 +18,26 @@ class _FirstTimeState extends State<FirstTime> {
         height: 20,
         child: Row(
           children: [
-            Text('You first time?', style: TextStyle(fontSize: 12,color: Colors.white70),),
-            FlatButton(onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) =>NewUser()));
-            },
-                child: Text(
-                  'Sing Up', style: TextStyle(
-                  fontSize: 12, color: Colors.white,
+            Text(
+              'You first time?',
+              style: TextStyle(fontSize: 12, color: Colors.white70),
+            ),
+            FlatButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => NewUser()));
+              },
+              child: Text(
+                'Sign Up',
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.white,
                 ),
-                  textAlign: TextAlign.right,
-                ),),
-
+                textAlign: TextAlign.right,
+              ),
+            ),
           ],
         ),
-
       ),
     );
   }
