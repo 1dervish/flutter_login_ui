@@ -3,7 +3,7 @@ import 'package:loginui/widgets/ButtonNewUser.dart';
 import 'package:loginui/widgets/newEmail.dart';
 import 'package:loginui/widgets/newName.dart';
 import 'package:loginui/widgets/password.dart';
-import 'package:loginui/widgets/SignUp.dart';
+import 'package:loginui/widgets/signup.dart';
 import 'package:loginui/widgets/textNew.dart';
 import 'package:loginui/widgets/userOld.dart';
 
